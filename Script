@@ -25,3 +25,5 @@ Tab:AddToggle({
     print("Pets are Duping Please dont Leave")
 })
 end
+
+OrionLib:Init()
